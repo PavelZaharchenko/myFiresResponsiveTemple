@@ -1,0 +1,49 @@
+// переменные:
+@colorWhite: #FFF;
+@colorgrey: #F7F7F7;
+@colorBlack: #000;
+@colorGreen: #007d7b;
+@colorYellow: #f2b025;
+@colorBlue: #4FD6FF;
+@colorBorder: #D1CFCF;
+
+@colorLogo: #535353;
+
+@containerWidth: 1000px;
+@borderRadius: 12px;
+
+@basicFotntSize: 30px;
+@basicTitleSize: 60px;
+@h2FontSize: 18px;
+@pFontSize: 16px;
+
+// .container {
+// 	max-width: @containerWidth;
+// 	margin: auto;
+// 	font-family: verdana, arial, helvetica, sans-serif;
+// }
+
+.round{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border: 2px solid @colorBorder;
+	border-radius: 50%;
+	background: @colorWhite;
+	z-index: 2;
+	position: absolute;
+	top: 10px;
+	outline: 2px solid @colorWhite;
+}
+
+.flexy() {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text() {
+	font-size: @h2FontSize;
+	font-family: 'OpenSans-BoldItalic';
+	line-height: 1.5;
+	color: @colorLogo;
+}

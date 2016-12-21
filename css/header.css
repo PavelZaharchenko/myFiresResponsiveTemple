@@ -1,0 +1,58 @@
+header {
+  padding: 40px 100px 0;
+  height: 100vh;
+  background-image: url(imgs/layer-2.png);
+  background-position: center;
+  background-size: cover;
+  font-size: 0;
+  font-family: HoneyScript;
+  position: relative;
+}
+header .top-header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+header .logo {
+  font-size: 54px;
+}
+header .open-menu {
+  width: 25px;
+  height: 16px;
+  background: url(imgs/hamburger-icon.png);
+  cursor: pointer;
+}
+header .title {
+  font-size: 84px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .title p {
+  text-align: center;
+}
+header .mouse {
+  height: 73px;
+  width: 24px;
+  background-image: url(imgs/mouse.png);
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -12px;
+}
+@media screen and (max-width: 700px) {
+  header {
+    padding: 40px 50px 0;
+  }
+  header .title {
+    font-size: 50px;
+  }
+}

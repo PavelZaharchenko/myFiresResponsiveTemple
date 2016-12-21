@@ -1,0 +1,13 @@
+[1012/204632:ERROR:process_reader_win.cc(173)] ResumeThread: Параметр задан неверно. (0x57)
+[1012/204632:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[1012/204632:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[1012/204632:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[1012/204632:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[1012/204632:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[1012/204632:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[1012/204632:ERROR:process_reader_win.cc(114)] NtOpenThread: Указан неверный код клиента.  (0xc000000b)
+[1012/204632:ERROR:exception_snapshot_win.cc(87)] thread ID 2760 not found in process
+[1012/204632:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1109/235525:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files\Nolarry\Reports\Dump: Системе не удается найти указанный путь. (0x3)
+[1109/235525:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[1109/235525:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files\Nolarry\Reports\Dump: Системе не удается найти указанный путь. (0x3)
